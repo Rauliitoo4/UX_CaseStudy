@@ -9,6 +9,6 @@
   - [User Journey Map 1](User-Journey-Map1.pdf)
   - [User Journey Map 2](User-Journey-Map2.pdf)
 - Revisión de Usabilidad:
-  - [Usability Review](Usability-review-relleno.xlsx)
+  - [Usability Review](Usability-review.xlsx)
 - Briefing de la práctica:
   - [Briefing](Briefing.md)
