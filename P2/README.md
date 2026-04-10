@@ -2,7 +2,7 @@
 
 ### Ideación 
 * Malla receptora de información 
-* Mapa de empatía
+* [Mapa de empatía](MapaDeEmpatia.pdf)
 * Point of View 
 
 
