@@ -3,7 +3,8 @@
 ### Ideación 
 * Malla receptora de información 
 * [Mapa de empatía](MapaDeEmpatia.pdf)
-* Point of View 
+* Point of View :
+    "Un usuario que quiere comer bien en Granada necesita encontrar rápidamente un restaurante con menú claro, disponibilidad real y reseñas fiables, porque la información dispersa entre varias webs y apps le hace perder tiempo y genera inseguridad antes de decidir."
 
 
 ### PROPUESTA DE VALOR
