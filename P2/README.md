@@ -8,7 +8,7 @@
 
 
 ### PROPUESTA DE VALOR
-* ScopeCanvas
+* [ScopeCanvas](ScopeCanvas.pdf)
 
 
 ### TASK ANALYSIS
