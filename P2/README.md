@@ -1,6 +1,6 @@
 ## DIU - Practica2, entregables
 
-### Ideación 
+### [Ideación](https://github.com/Rauliitoo4/UX_CaseStudy/tree/master/P2/ideacion) 
 * [Malla receptora de información](FeedbackCaptureGrid.pdf) 
 * [Mapa de empatía](MapaDeEmpatia.pdf)
 * Point of View :
