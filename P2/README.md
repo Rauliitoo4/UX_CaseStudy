@@ -28,5 +28,10 @@
 
 ### Conclusiones  
 
->>>> Este fichero se debe editar para que cada evidencia quede enlazada con el recurso subido a la carpeta de la practica. Se pide más detalle técnico en las descripciones de lo que sería el README principal del repositorio y que corresponde a la descripcion del Case Study.
->>>> Termine con la seccion de Conclusiones para aportar una valoración final del equipo sobre la propia realización de la práctica
+Esta práctica me ha permitido aplicar el proceso de diseño centrado en el usuario de forma 
+completa, desde la ideación hasta el prototipado Lo-Fi. Partiendo del análisis de Goiko en 
+la P1, he definido una propuesta de valor propia y estructurado una interfaz clara y usable 
+para Sabores con Encanto.
+
+El mayor reto ha sido el uso de Figma por primera vez, aunque el resultado final con 8 
+pantallas es satisfactorio.
