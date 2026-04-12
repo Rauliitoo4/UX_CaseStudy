@@ -1,29 +1,29 @@
 ## DIU - Practica2, entregables
 
-### [Ideación](https://github.com/Rauliitoo4/UX_CaseStudy/tree/master/P2/ideacion) 
-* [Malla receptora de información](FeedbackCaptureGrid.pdf) 
-* [Mapa de empatía](MapaDeEmpatia.pdf)
+### [Ideación](https://github.com/Rauliitoo4/UX_CaseStudy/tree/master/P2/Ideacion) 
+* Malla receptora de información
+* Mapa de empatía
 * Point of View :
     "Un usuario que quiere comer bien en Granada necesita encontrar rápidamente un restaurante con menú claro, disponibilidad real y reseñas fiables, porque la información dispersa entre varias webs y apps le hace perder tiempo y genera inseguridad antes de decidir."
 
 
-### PROPUESTA DE VALOR
-* [ScopeCanvas](ScopeCanvas.pdf)
+### [PROPUESTA DE VALOR](https://github.com/Rauliitoo4/UX_CaseStudy/tree/master/P2/PropuestaDeValor)
+* ScopeCanvas
 
 
-### TASK ANALYSIS
+### [TASK ANALYSIS](https://github.com/Rauliitoo4/UX_CaseStudy/tree/master/P2/TaskAnalysis)
 
-* [User Task Matrix](UserTaskMatrix.md)
+* User Task Matrix
 * User/Task flow
 
 
-### ARQUITECTURA DE INFORMACIÓN
+### [ARQUITECTURA DE INFORMACIÓN](https://github.com/Rauliitoo4/UX_CaseStudy/tree/master/P2/ArquitecturaDeInformacion)
 
 * Sitemap 
 * Labelling 
 
 
-### Prototipo Lo-FI Wireframe 
+### [Prototipo Lo-FI Wireframe](https://github.com/Rauliitoo4/UX_CaseStudy/tree/master/P2/Prototipo)
 
 
 ### Conclusiones  
