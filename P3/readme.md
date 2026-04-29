@@ -4,7 +4,8 @@
 - [Landing Page](LandingPage.png)
 - [Mockup: LAYOUT HI-FI versión png](Layout.png)
 - [Mockup: LAYOUT HI-FI versión pdf](Layout.pdf)
-- [Publicación del Case Study](figma.com)
+- [Publicación del Case Study](https://www.figma.com/design/kh3VvDpBz8eGqK6z3bIJjP/p3?node-id=12-215&p=f&t=ujGnr2Xnq4DsGKi2-0)
+- [Briefing](Briefing.md)
  
 ## Conclusiones
  
