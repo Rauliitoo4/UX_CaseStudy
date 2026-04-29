@@ -8,7 +8,7 @@
 - [Briefing](Briefing.md)
 
 ## Layout
-Como son 8 antallas tanto en png como pdf se ven muy pequeñas y he añadido la carpeta layout que contiene cada una de las páginas en png por separado:
+Como el layout completo son 8 pantallas, tanto en png como pdf se ven muy pequeñas y por ello he añadido la carpeta layout que contiene cada una de las páginas en png por separado:
 - [Página principal](layout/Home.png)
 - [Menú](layout/Menu.png)
 - [Detalles del plato](layout/DetallePlato.png)
