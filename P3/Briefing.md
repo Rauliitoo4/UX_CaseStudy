@@ -20,7 +20,7 @@ Se creó un Design System ligero siguiendo la metodología Atomic Design, organi
 Se diseñaron 8 pantallas completas reutilizando los componentes del Design System: Home, Menú/Carta, Detalle de plato, Reservar mesa, Búsqueda, Nosotros, Contacto y Confirmación de reserva. Todas las pantallas mantienen coherencia visual y estructural gracias al uso sistemático de los componentes definidos.
  
 **Simulación**  
-Se implementó la simulación de interacción en modo Prototipo de Figma, conectando los flujos principales de usuario: exploración del menú, reserva de mesa y navegación general. La simulación puede visualizarse a través del enlace público de Figma en modo presentación: [Ver prototipo interactivo](ENLACE_FIGMA_AQUI). Se aplicó animación de transición entre pantallas para simular una experiencia fluida.
+Se implementó la simulación de interacción en modo Prototipo de Figma, conectando todos los flujos de usuario. La simulación puede visualizarse a través del enlace público de Figma en modo presentación: [Ver prototipo interactivo](https://www.figma.com/design/kh3VvDpBz8eGqK6z3bIJjP/p3?node-id=12-215&p=f&t=ujGnr2Xnq4DsGKi2-0). Se aplicó animación de transición entre pantallas para simular una experiencia fluida.
  
 ---
  
@@ -30,5 +30,4 @@ Se implementó la simulación de interacción en modo Prototipo de Figma, conect
 - **Figma Make** — Generación de estructura base de la landing page
 - **Lucide.dev** — Iconografía
 - **Google Fonts** — Tipografías (Cormorant Garamond e Inter)
-- **Unsplash** — Imágenes de referencia y contenido visual
 ---
