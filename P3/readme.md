@@ -6,6 +6,17 @@
 - [Mockup: LAYOUT HI-FI versión pdf](Layout.pdf)
 - [Publicación del Case Study](https://www.figma.com/design/kh3VvDpBz8eGqK6z3bIJjP/p3?node-id=12-215&p=f&t=ujGnr2Xnq4DsGKi2-0)
 - [Briefing](Briefing.md)
+
+## Layout
+Como son 8 antallas tanto en png como pdf se ven muy pequeñas y he añadido la carpeta layout que contiene cada una de las páginas en png por separado:
+- [Página principal](layout/Home.png)
+- [Menú](layout/Menu.png)
+- [Detalles del plato](layout/DetallePlato.png)
+- [Reservar Mesa](layout/ReservarMesa.png)
+- [Búsqueda](layout/Busqueda.png)
+- [Nosotros](layout/Nosotros.png)
+- [Contacto](layout/Contacto.png)
+- [Confirmar Reserva](layout/ConfirmarReserva.png)
  
 ## Conclusiones
  
