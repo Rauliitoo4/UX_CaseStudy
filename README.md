@@ -225,7 +225,7 @@ Resultados en [P5/](./P5/)
 
 Informe de usabilidad completo del Caso B (DIU2.AKA — Los Pajaritos) elaborado por DIU3.rrc, incluyendo análisis SUS, Eye Tracking y auditoría de accesibilidad con Lighthouse (90/100).
 
-Enlace al informe: [P4_UsabReport_DIU2AKA_doneby_DIU3_rrc.md](./P5/P4_UsabReport_DIU2AKA_doneby_DIU3_rrc.md)
+Enlace al informe: [P4_UsabReport_DIU2AKA_doneby_DIU3_rrc.md](./P5/Usability-Report/UsabilityReport.md)
 
 ---
 
