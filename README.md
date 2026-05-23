@@ -148,34 +148,84 @@ Mockup Hi-Fi en Figma con 8 pantallas: Landing, Carta, Detalle de plato, Reserva
 
 ### 4.a Reclutamiento de usuarios
 
-**Caso B asignado:** DIU2.AKA
+**Caso B asignado:** DIU2.AKA — Los Pajaritos (rediseño de Epicureum, cafetería de especialidad)
 
-| Usuarios | Sexo/Edad | Ocupación | Exp.TIC | Personalidad | Plataforma | Caso |
-|----------|-----------|-----------|---------|--------------|------------|------|
-| P01 | H / 22 | Estudiante | Media | Extrovertido | Web | A |
-| P02 | M / 34 | Periodista | Media | Analítica | Web | A |
-| P03 | H / 48 | Ejecutivo | Baja | Racional | Web | B |
-| P04 | M / 26 | Diseñadora | Alta | Creativa | Web | B |
+Se reclutaron 10 participantes distribuidos en 5 para el Caso A y 5 para el Caso B, con perfiles variados en edad, género y competencia digital.
+
+| ID | Sexo/Edad | Ocupación | Exp.TIC | Plataforma | Caso |
+|----|-----------|-----------|---------|------------|------|
+| P01 | H / 22 | Estudiante | Media | Web | A |
+| P02 | M / 35 | Profesora | Media | Web | A |
+| P03 | H / 25 | Informático | Alta | Web | A |
+| P04 | M / 62 | Jubilada | Baja | Web | A |
+| P05 | H / 21 | Estudiante | Media | Web | A |
+| P06 | H / 52 | Autónomo | Baja | Web | B |
+| P07 | M / 28 | Diseñadora | Alta | Web | B |
+| P08 | H / 45 | Empresario | Media | Web | B |
+| P09 | M / 20 | Estudiante | Media | Web | B |
+| P10 | M / 49 | Administrativa | Baja | Web | B |
 
 ### 4.b Diseño de las pruebas
 
-Se plantean tres pruebas principales por usuario: navegación libre por la landing (5 min), tarea de reserva de mesa y tarea de búsqueda de un plato concreto en la carta. Se registrará si el usuario necesitó ayuda para completar cada tarea. Duración aproximada: 5-10 minutos por sesión.
+Se realizaron tres pruebas por usuario sobre el prototipo Figma del caso asignado:
+1. **Navegación libre** por la Landing Page (5 minutos)
+2. **Tarea 1:** Encontrar un producto en la carta y añadirlo al pedido
+3. **Tarea 2:** Reservar una mesa / consultar disponibilidad
+
+Duración aproximada: 5-10 minutos por sesión. Se registró si el usuario necesitó ayuda para completar cada tarea.
 
 ### 4.c Cuestionario SUS
 
-Se utilizará el cuestionario SUS estándar de 10 preguntas mediante **Tally.so**, ampliado con preguntas demográficas. Los resultados se analizarán con **sus.mixality.de** para obtener la valoración numérica y la etiqueta lingüística de cada caso. Resultados en [P4/](./P4/).
+Se utilizó el cuestionario SUS estándar de 10 preguntas mediante **Tally.so**, ampliado con preguntas demográficas (edad, género, competencia digital, uso de gafas, rol). Enlace al formulario: https://tally.so/r/81R8Wx
+
+Los resultados se analizaron con **sus.mixality.de**. Resultados:
+
+| ID | Caso | SUS Score | Etiqueta |
+|----|------|-----------|----------|
+| P01 | A | 50.0 | Marginal |
+| P02 | A | 42.5 | Pobre |
+| P03 | A | 92.5 | Excelente |
+| P04 | A | 7.5 | Pobre |
+| P05 | A | 52.5 | Marginal |
+| P06 | B | 7.5 | Pobre |
+| P07 | B | 92.5 | Excelente |
+| P08 | B | 45.0 | Pobre |
+| P09 | B | 57.5 | Marginal |
+| P10 | B | 15.0 | Pobre |
+
+**Media Caso A (Sabores con Encanto): 49.0 — Marginal**
+**Media Caso B (Los Pajaritos): 43.5 — Pobre**
+
+El patrón es claro: usuarios con alta competencia digital obtienen puntuaciones excelentes (92.5) mientras que los de baja competencia obtienen puntuaciones muy bajas (7.5-15.0), lo que indica que ambos diseños necesitan mejorar su accesibilidad para perfiles menos digitalizados.
 
 ### 4.d A/B Testing
 
-Pendiente de completar tras realizar las pruebas con usuarios. Se comparará el Caso A (Sabores con Encanto) con el Caso B (DIU2.AKA) usando los resultados del cuestionario SUS y las métricas de Eye Tracking.
+| Métrica | Caso A (Sabores con Encanto) | Caso B (Los Pajaritos) |
+|---------|------------------------------|------------------------|
+| Media SUS | 49.0 | 43.5 |
+| Etiqueta | Marginal | Pobre |
+| Mejor puntuación | 92.5 | 92.5 |
+| Peor puntuación | 7.5 | 7.5 |
+
+**Conclusión:** El Caso A resulta ligeramente más usable que el Caso B. Ambos diseños presentan dificultades para usuarios con baja competencia digital.
 
 ### 4.e Aplicación del método Eye Tracking
 
-Se utilizará **GazeMapping** sobre capturas de pantalla de las páginas principales del Caso B (DIU2.AKA). Se definirán POIs en elementos clave: logo, CTA de reserva, navegación y cards de platos. Mínimo 3 usuarios. Resultados en [P4/](./P4/).
+Se utilizó **GazeRecorder** sobre capturas de pantalla de las 3 páginas principales del Caso B (Landing, Carta y El Local). Las capturas se realizaron con la extensión **FireShot** sobre el prototipo Figma en modo presentación.
+
+**Resultados Landing Page:** La atención se concentra en el headline y el botón "Pedir y Recoger", confirmando una jerarquía visual efectiva. Los botones secundarios (Reservar, Ver Carta) reciben menos atención.
+
+**Resultados La Carta:** Los usuarios focalizan en imágenes y precios antes que en los filtros de categoría.
+
+**Resultados El Local:** Los indicadores de ambiente (aforo, ruido) — propuesta de valor diferencial — no captan suficiente atención visual. Se recomienda rediseñar esta sección.
+
+Resultados en [P5/](./P5/)
 
 ### 4.f Usability Report de B
 
-Pendiente de completar. El informe evaluará el Caso B (DIU2.AKA) siguiendo la plantilla oficial. Enlace al informe: [P4/](./P4/)
+Informe de usabilidad completo del Caso B (DIU2.AKA — Los Pajaritos) elaborado por DIU3.rrc, incluyendo análisis SUS, Eye Tracking y auditoría de accesibilidad con Lighthouse (90/100).
+
+Enlace al informe: [P4_UsabReport_DIU2AKA_doneby_DIU3_rrc.md](./P5/P4_UsabReport_DIU2AKA_doneby_DIU3_rrc.md)
 
 ---
 
