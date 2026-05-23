@@ -27,7 +27,7 @@ Grupo: DIU3.rrc. Curso: 2025/26
 
 **Logotipo:**
 
-![Logo Sabores con Encanto](P3/DesignSystem.png)
+![Logo Sabores con Encanto](P3/logo.png)
 
 **Slogan:** *Donde cada plato cuenta una historia*
 
@@ -53,13 +53,11 @@ Se analizaron tres competidores del sector fast food y burger gourmet: **Goiko**
 
 **Carlos (22, estudiante):** Busca restaurantes con buen ambiente y precios visibles. Quiere ver el menú completo y poder reservar en pocos pasos sin tener que llamar.
 
-**Miguel (48, ejecutivo):** Viaja frecuentemente por trabajo y necesita cerrar reuniones en restaurantes adecuados. Valora conocer la carta y el ambiente antes de ir para asegurarse de que es un sitio apropiado para una comida de negocios.
-
 **Ana (34, periodista):** Busca disponibilidad de mesa para esta noche y quiere saber cómo es el ambiente del restaurante antes de tomar la decisión.
 
 ### 1.d User Journey Map
 
-Se definieron dos journey maps: el de Carlos, que intenta reservar mesa desde el móvil en el último momento y se encuentra con dificultades para confirmar disponibilidad en tiempo real; y el de Miguel, que investiga el restaurante desde el ordenador antes de una reunión y necesita información clara sobre la carta y el ambiente.
+Se definieron dos journey maps: el de Carlos, que intenta reservar mesa desde el móvil en el último momento y se encuentra con dificultades para confirmar disponibilidad en tiempo real; y el de Ana, que investiga el restaurante desde el ordenador antes de una reunión y necesita información clara sobre la carta y el ambiente.
 
 ### 1.e Usability Review
 
