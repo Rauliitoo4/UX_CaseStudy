@@ -130,26 +130,8 @@ La atención se concentra en la fotografía del espacio, con escasa atención a 
 | Best Practices | 96/100 |
 | SEO | 66/100 |
 
-### 5.3 Issues detectados
 
-#### Categoría: Operable
-**Error:** `[user-scalable="no"]` en el elemento `<meta name="viewport">`  
-**Criterio WCAG incumplido:** Criterio 1.4.4 — Cambio de tamaño del texto (Nivel AA)  
-**Impacto:** Los usuarios con baja visión no pueden hacer zoom en la página para ampliar el contenido, lo que reduce significativamente la accesibilidad para este colectivo.  
-**Recomendación:** Eliminar `user-scalable=no` y `maximum-scale` del meta viewport para permitir el zoom del navegador.
-
-#### Categoría: Robusto
-**Error:** Elementos con `role="dialog"` o `role="alertdialog"` sin nombre accesible  
-**Criterio WCAG incumplido:** Criterio 4.1.2 — Nombre, función, valor (Nivel A)  
-**Impacto:** Los lectores de pantalla no pueden identificar ni anunciar correctamente los diálogos modales, impidiendo su uso a personas con discapacidad visual.  
-**Recomendación:** Añadir atributo `aria-label` o `aria-labelledby` a todos los elementos con role="dialog".
-
-#### Categoría: Perceptible
-**Observación:** Las fotografías de fondo en la Landing no tienen texto alternativo (`alt`), lo que impide que los lectores de pantalla transmitan la información visual a usuarios con discapacidad visual.  
-**Criterio WCAG incumplido:** Criterio 1.1.1 — Contenido no textual (Nivel A)  
-**Recomendación:** Añadir atributos `alt` descriptivos a todas las imágenes con contenido informativo.
-
-### 5.4 Valoración general de accesibilidad
+### 5.3 Valoración general de accesibilidad
 
 El Caso B obtiene una **puntuación de accesibilidad de 90/100**, lo que indica un nivel técnico bueno. Los 20 criterios superados incluyen contraste de colores adecuado, estructura de encabezados correcta y navegación por teclado funcional. Los principales problemas detectados son de nivel A y AA según WCAG 2.1, y su corrección es relativamente sencilla. Se recomienda abordarlos antes del despliegue en producción.
 
