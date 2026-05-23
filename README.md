@@ -1,291 +1,201 @@
 # DIU26
-Prácticas Diseño Interfaces de Usuario (Tema: .... ) 
+Prácticas Diseño Interfaces de Usuario - Sabores con Encanto
 
-* [Guiones de prácticas](GuionesPracticas/)
-* [Guía para crea tu Case Study](Guia_CaseStudy.md)
-* Sala de la Fama [DIU Hall of fame](https://github.com/mgea/DIU/tree/master/hall_of_fame) donde se pueden encontrar Case Study destacados de otros años.
-* [Recursos/plantillas en figma](https://www.figma.com/design/BN2IR0q2clOSplfMmalh9K/DIU_Toolkit_Framework--2026-)
+[Guiones de prácticas](./GuionesPracticas/)
 
+Actualizado: 23/05/2026
 
+---
 
+## 🔗 Enlaces del proyecto
 
-Actualizado: 14/01/2026
+| Recurso | Enlace |
+|--------|--------|
+| 🎨 Figma (P3) | [Ver diseño](https://www.figma.com/design/kh3VvDpBz8eGqK6z3bIJjP/p3) |
+| 🌐 Web publicada (P4) | [sabores-con-encanto.surge.sh](https://sabores-con-encanto.surge.sh) |
+| 💻 Código fuente (P4) | [Ver en GitHub](https://github.com/Rauliitoo4/UX_CaseStudy/tree/master/P4) |
 
+---
 
+## Paso 0. My UX-Case Study
 
+Grupo: DIU3.rrc. Curso: 2025/26
 
-## Paso 0 My UX-Case Study
-![Método UX](img/caseStudy.png) 
------
+**Nombre del Proyecto:** Sabores con Encanto
 
->>> Este documento es el esqueleto del Case Study que explica el proceso de desarrollo de las 5 prácticas de DIU. Aparte de subir cada entrega a PRADO, se debe actualizar y dar formato de informe final a este documento online. Elimine este tipo de texto / comentarios desde la práctica 1 conforme proceda a cada paso
+**Descripción:** Sabores con Encanto es un restaurante de fusión gourmet que combina técnicas culinarias de distintas culturas con ingredientes de temporada. La propuesta digital permite explorar la carta, reservar mesa en tiempo real y descubrir la filosofía del restaurante de forma sencilla e inmersiva.
 
+**Logotipo:**
 
->>> Hay que Publicar de forma incremental "my Case Study" en Github... Es el momento de dejar este documento para que sea evaluado y calificado como parte de la práctica
->>> Documente bien la cabecera y asegurese que ha resumido los pasos realizados para el diseño de su producto
+![Logo Sabores con Encanto](P3/DesignSystem.png)
 
-Grupo: DIUx_AABB.  Curso: 2025/26 
+**Slogan:** *Donde cada plato cuenta una historia*
 
-Nombre del Proyecto: 
+**Miembros:**
 
->>> Decida el nombre corto de su propuesta en la práctica 2 
+👤 Raúl Redondo Chicano [:octocat:](https://github.com/Rauliitoo4)
 
-Descripción: 
+---
 
->>> Describa la idea de su producto en la práctica 2 
+## Proceso de Diseño
 
-Logotipo: 
+## Paso 1. UX User & Desk Research & Análisis
 
->>> Si diseña un logotipo para su producto en la práctica 3 pongalo aqui, a un tamaño adecuado. Si diseña un slogan añadalo aquí
+### 1.a User Research Plan
 
-Miembros y nombre del equipo:
- * :bust_in_silhouette:  AA     :octocat:     
- * :bust_in_silhouette:  BB     :octocat:
-
->>> Los equipos son de 2 personas. Identifícaros con el nombre del Grupo y los enlaces a los perfiles de GitHub de cada integrante
-
------ 
-
-<br>
-
-# Proceso de Diseño 
-
-
-
-
-
-<br>
-
-## Paso 1. UX User & Desk Research & Analisis 
-
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
-
-
-### 1.a User Reseach Plan
-![Método UX](img/Competitive.png) 
------
-
->>> Describe el plan en tu User Research (cómo se plantea la selección de usuarios). Borra esta línea cuando lo tengas.  
-
+El contexto analizado es el sector de la hostelería gourmet y la experiencia gastronómica en Granada. El objetivo es entender cómo los usuarios buscan, evalúan y reservan en restaurantes online. La estrategia combina análisis de la competencia, definición de perfiles de usuario y revisión experta de usabilidad sobre webs existentes del sector. Se priorizan usuarios con distintos niveles tecnológicos y motivaciones de visita (ocio, trabajo, ocasiones especiales).
 
 ### 1.b Competitive Analysis
-![Método UX](img/Competitive.png) 
------
 
->>> Describe brevemente características de las aplicaciones que tiene asignadas tu grupo. Decidete por una y explica por qué se ha seleccionado. Borra esta línea cuando lo tengas. 
-
+Se analizaron tres competidores del sector fast food y burger gourmet: **Goiko**, **The Champions Burger** y **Five Guys**. Se seleccionó **Goiko** como caso principal de estudio por ser la propuesta más completa digitalmente, con carta online, sistema de reservas y presencia mobile. Sus puntos fuertes son el diseño visual y la claridad de los CTAs, mientras que sus debilidades principales son la falta de buscador avanzado, filtros en la carta y mapa del sitio.
 
 ### 1.c Personas
-![Método UX](img/Persona.png) 
------
 
->>> Junto con la captura de pantalla de la ficha de la persona, haz una breve descripción de la misma. Recuerda que son dos. Los recursos de imagen deberán estar dentro de la carpeta P1/ Cuando termines, borra esta línea.  
+**Carlos (22, estudiante):** Busca restaurantes con buen ambiente y precios visibles. Quiere ver el menú completo y poder reservar en pocos pasos sin tener que llamar.
 
+**Miguel (48, ejecutivo):** Viaja frecuentemente por trabajo y necesita cerrar reuniones en restaurantes adecuados. Valora conocer la carta y el ambiente antes de ir para asegurarse de que es un sitio apropiado para una comida de negocios.
+
+**Ana (34, periodista):** Busca disponibilidad de mesa para esta noche y quiere saber cómo es el ambiente del restaurante antes de tomar la decisión.
 
 ### 1.d User Journey Map
-![Método UX](img/JourneyMap.png) 
-----
 
->>> Describe el porqué de las dos experiencias de usuario contadas en el journey map. Por ejemplo, reflexiona si te parece que son habituales. Enlaza con los recursos journey que están en la carpeta P1/. Borra esta linea del template cuando termines.  
-
+Se definieron dos journey maps: el de Carlos, que intenta reservar mesa desde el móvil en el último momento y se encuentra con dificultades para confirmar disponibilidad en tiempo real; y el de Miguel, que investiga el restaurante desde el ordenador antes de una reunión y necesita información clara sobre la carta y el ambiente.
 
 ### 1.e Usability Review
-![Método UX](img/usabilityReview.png) 
-----
 
->>>  El objetivo es revisar la usabilidad del competidor seleccionado. Usamos un checklist de verificación. Tras usarlo, subelo a la carpeta P1/ Ofrece aquí un parrafo para:
->>> - Enlace al documento:  (xls/pdf) 
->>> - URL y Valoración numérica obtenida: 
->>> - Comentario sobre la revisión:  (puntos fuertes y débiles detectados)
+Enlace al documento: [Usability-review.xlsx](./P1/Usability-review.xlsx)
 
-<br>
+URL analizada: [goiko.com](https://www.goiko.com/es/carta/hamburguesas/)
 
-## Paso 2. UX Design  
+**Valoración obtenida: 75.83 / 100 — Buena**
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
+La web de Goiko ofrece una experiencia visualmente atractiva y con buena arquitectura de navegación. Sus puntos fuertes son la claridad de los CTAs, el rendimiento técnico y la legibilidad del contenido. Las debilidades más destacadas son la ausencia de un buscador avanzado con filtros, la falta de mapa del sitio y la escasa ayuda contextual en los formularios, aspectos que afectan especialmente a usuarios con menor experiencia digital.
 
-### 2.a Reframing / IDEACION: Feedback Capture Grid / EMpathy map 
-![Método UX](img/feedback-capture-grid.png) 
-----
+---
 
->>> Comenta con un diagrama los aspectos más destacados a modo de conclusion de la práctica anterior. De qué carece la competencia?? Tu diagrama puede ser una figura subida a la carpeta P2/
+## Paso 2. UX Design
 
+### 2.a Reframing / Ideación
 
- Interesante | Críticas     
-| ------------- | -------
-  Preguntas | Nuevas ideas
-  
-    
->>> Explica el Problema y plantea una hipótesis. Es decir, explica aquí qué 
->>> se plantea como "propuesta de valor" para un nuevo diseño de aplicación propio
+A partir del análisis de Goiko y las experiencias de los usuarios ficticios, se identificaron las carencias principales del sector: falta de filtros en la carta, ausencia de reservas en tiempo real y experiencia mobile poco optimizada. La propuesta de valor de Sabores con Encanto se centra en resolver estas fricciones ofreciendo una experiencia digital completa, elegante y sin complicaciones.
 
+**Feedback Capture Grid:**
+
+| Interesante | Críticas |
+|-------------|----------|
+| Diseño visual atractivo en competidores | Sin filtros ni buscador en la carta |
+| CTAs claros para añadir al carrito | Reservas poco visibles o inexistentes |
+| **Preguntas** | **Nuevas ideas** |
+| ¿Puedo ver disponibilidad antes de reservar? | Reserva en tiempo real con confirmación inmediata |
+| ¿Hay platos sin gluten o vegetarianos? | Carta filtrable por categoría, alérgenos y precio |
 
 ### 2.b ScopeCanvas
-![Método UX](img/ScopeCanvas.png)
-----
 
->>> Propuesta de valor, pero ahora en vez de un texto es un ScopeCanvas que has subido a P2/ y enlazado desde aqui. Tambien vale una imagen miniatura del recurso.
->>> No olvides que tu propuesta ya tiene un nombre corto y puedes actualizar la cabecera de este archivo
+La propuesta se articula en tres pilares: **menú filtrable** (por categoría, alérgenos y precio), **reserva en tiempo real** (con confirmación inmediata) y **experiencia visual inmersiva** que transmita la identidad gourmet del restaurante. El objetivo es fidelizar tanto a usuarios jóvenes que valoran la autonomía digital como a perfiles profesionales que necesitan información clara y rápida.
 
+### 2.c User Flow / Task Analysis
 
+Se definieron dos flujos principales:
 
-### 2.b User Flow (task) analysis 
-![Método UX](img/Sitemap.png) 
------
+- **Consulta de carta:** Inicio → Menú → Filtro por categoría → Detalle de plato → Añadir
+- **Reserva de mesa:** Inicio → Reservar → Seleccionar fecha/hora/comensales → Confirmar → Confirmación
 
->>> Definir "User Map" y "Task Flow" ... enlazar desde P2/ y describir brevemente
+Además se elaboró una **User Task Matrix** identificando las tareas más frecuentes y su importancia para cada perfil de usuario.
 
+### 2.d IA: Sitemap + Labelling
 
-### 2.c IA: Sitemap + Labelling 
-![Método UX](img/labelling.png) 
-----
+| Término | Significado | Icono |
+|---------|-------------|-------|
+| Menú | Carta de platos filtrable por categoría | UtensilsCrossed |
+| Reservar | Formulario de reserva de mesa | Calendar |
+| Nosotros | Historia y filosofía del restaurante | Info |
+| Contacto | Información de contacto y localización | MapPin |
+| Buscar | Búsqueda de platos por nombre | Search |
 
->>> Identificar términos para diálogo con usuario (evita el spanglish) y la arquitectura de la información. Es muy apropiado un diagrama tipo sitemap y una tabla que se ampliaría para llevar asociado la columna iconos (tanto para la web como para una app). 
+### 2.e Wireframes
 
-Término | Significado     
-| ------------- | -------
-  Login  | acceder a plataforma
+Bocetos Lo-Fi diseñados en Figma para las vistas principales: Landing, Carta, Detalle de plato, Reserva, Búsqueda, Nuestra Historia, Contacto y Confirmación de reserva. Se realizó una primera versión con posiciones fijas y una segunda con grid layout responsive.
 
-
-### 2.d Wireframes
-![Método UX](img/Wireframes.png) 
------
-
->>> Plantear el diseño del layout para Web/movil (organización y simulación). Describa la herramienta usada 
-
-<br>
+---
 
 ## Paso 3. Mi UX-Case Study (diseño)
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
-
-
 ### 3.a Moodboard
-![Método UX](img/moodboard.png)
------
 
->>> Diseño visual con una guía de estilos visual (moodboard) 
->>> Incluir Logotipo. Todos los recursos estarán subidos a la carpeta P3/
->>> Explique aqui la/s herramienta/s utilizada/s y el por qué de la resolución empleada. Reflexione ¿Se puede usar esta imagen como cabecera de Instagram, por ejemplo, o se necesitan otras?
+![Moodboard](P3/Moodboard.png)
 
+Guía de estilos visual creada en Figma con paleta de colores elegante (negro carbón `#2A2A2A`, dorado `#C9A84C`, crema marfil `#F5F0E8` y rojo vino `#8B0000`), tipografía **Cormorant Garamond** para transmitir sofisticación, e imágenes de alta calidad que reflejan la identidad gourmet del restaurante. El logotipo combina tipografía serif y un símbolo minimalista que evoca la gastronomía de autor.
 
 ### 3.b Landing Page
-![Método UX](img/landing-page.png) 
-----
 
->>> Plantear el Landing Page del producto. Aplica estilos definidos en el moodboard
+![Landing Page](P3/LandingPage.png)
 
+Landing page diseñada en Figma con hero de imagen a pantalla completa con overlay oscuro, headline impactante (*"Donde cada plato cuenta una historia"*), dos CTAs principales (Reservar mesa / Ver carta) y sección de platos destacados. Generada con apoyo de **Figma Make** y ajustada manualmente para mantener coherencia con el Design System.
 
 ### 3.c Guidelines
-![Método UX](img/guidelines.png) 
-----
 
->>> Estudio de Guidelines y explicación de los Patrones IU a usar 
->>> Es decir, tras documentarse, muestre las deciones tomadas sobre Patrones IU a usar para la fase siguiente de prototipado. 
-
+Patrones IU seleccionados: **Sticky navbar** para navegación persistente, **cards** para mostrar platos con imagen, nombre, descripción y precio, **filtros por categoría** en la carta, **formulario de reserva paso a paso** con indicador de progreso y **jerarquía visual de botones** (primary dorado / secondary outline / disabled gris).
 
 ### 3.d Mockup
-![Método UX](img/mockup.png) 
-----
 
->>> Consiste en tener un Layout en acción. Un Mockup es un prototipo HTML que permite simular tareas con estilo de IU seleccionado. Muy útil para compartir con stakeholders
+![Layout](P3/Layout.png)
 
+Mockup Hi-Fi en Figma con 8 pantallas: Landing, Carta, Detalle de plato, Reserva, Resultados de búsqueda, Nuestra Historia, Contacto y Confirmación de reserva. Diseño con autolayout responsive y componentes con variantes para simular interacciones.
 
-<br>
+[Ver en Figma](https://www.figma.com/design/kh3VvDpBz8eGqK6z3bIJjP/p3)
 
-## Paso 4. Pruebas de Evaluación 
+---
 
-### 4.a Reclutamiento de usuarios 
-![Método UX](img/usability-testing.png)
------
+## Paso 4. Pruebas de Evaluación
 
->>> Breve descripción del caso asignado (llamado Caso-B) con enlace al repositorio Github
->>> Tabla y asignación de personas ficticias (o reales) a las pruebas. Exprese las ideas de posibles situaciones conflictivas de esa persona en las propuestas evaluadas. Mínimo 4 usuarios: asigne 2 al Caso A y 2 al caso B.
+### 4.a Reclutamiento de usuarios
 
+**Caso B asignado:** DIU2.AKA
 
+| Usuarios | Sexo/Edad | Ocupación | Exp.TIC | Personalidad | Plataforma | Caso |
+|----------|-----------|-----------|---------|--------------|------------|------|
+| P01 | H / 22 | Estudiante | Media | Extrovertido | Web | A |
+| P02 | M / 34 | Periodista | Media | Analítica | Web | A |
+| P03 | H / 48 | Ejecutivo | Baja | Racional | Web | B |
+| P04 | M / 26 | Diseñadora | Alta | Creativa | Web | B |
 
-| Usuarios | Sexo/Edad     | Ocupación   |  Exp.TIC    | Personalidad | Plataforma | Caso
-| ------------- | -------- | ----------- | ----------- | -----------  | ---------- | ----
-| User1's name  | H / 18   | Estudiante  | Media       | Introvertido | Web.       | A 
-| User2's name  | H / 18   | Estudiante  | Media       | Timido       | Web        | A 
-| User3's name  | M / 35   | Abogado     | Baja        | Emocional    | móvil      | B 
-| User4's name  | H / 18   | Estudiante  | Media       | Racional     | Web        | B 
+### 4.b Diseño de las pruebas
 
-
-### 4.b Diseño de las pruebas 
-![Método UX](img/usability-testing.png) 
------
-
->>> Planifique qué pruebas se van a desarrollar. ¿En qué consisten? ¿Se hará uso del checklist de la P1?
-
-
+Se plantean tres pruebas principales por usuario: navegación libre por la landing (5 min), tarea de reserva de mesa y tarea de búsqueda de un plato concreto en la carta. Se registrará si el usuario necesitó ayuda para completar cada tarea. Duración aproximada: 5-10 minutos por sesión.
 
 ### 4.c Cuestionario SUS
-![Método UX](img/Survey.png) 
-----
 
->>> Como uno de los test para la prueba A/B testing, usaremos el **Cuestionario SUS** que permite valorar la satisfacción de cada usuario con el diseño utilizado (casos A o B). Para calcular la valoración numérica y la etiqueta linguistica resultante usamos la [hoja de cálculo](https://github.com/mgea/DIU19/blob/master/Cuestionario%20SUS%20DIU.xlsx). Previamente conozca en qué consiste la escala SUS y cómo se interpretan sus resultados
-http://usabilitygeek.com/how-to-use-the-system-usability-scale-sus-to-evaluate-the-usability-of-your-website/)
-Para más información, consultar aquí sobre la [metodología SUS](https://cui.unige.ch/isi/icle-wiki/_media/ipm:test-suschapt.pdf)
->>> Adjuntar en la carpeta P4/ el excel resultante y describa aquí la valoración personal de los resultados 
-
+Se utilizará el cuestionario SUS estándar de 10 preguntas mediante **Tally.so**, ampliado con preguntas demográficas. Los resultados se analizarán con **sus.mixality.de** para obtener la valoración numérica y la etiqueta lingüística de cada caso. Resultados en [P4/](./P4/).
 
 ### 4.d A/B Testing
-![Método UX](img/ABtesting.png) 
------
 
->>> Los resultados de un A/B testing con 3 pruebas y 2 casos o alternativas daría como resultado una tabla de 3 filas y 2 columnas, además de un resultado agregado global. Especifique con claridad el resultado: qué caso es más usable, A o B?
+Pendiente de completar tras realizar las pruebas con usuarios. Se comparará el Caso A (Sabores con Encanto) con el Caso B (DIU2.AKA) usando los resultados del cuestionario SUS y las métricas de Eye Tracking.
 
-### 4.e Aplicación del método Eye Tracking 
-![Método UX](img/eye-tracking.png)
-----
+### 4.e Aplicación del método Eye Tracking
 
->>> Indica cómo se diseña el experimento y se reclutan los usuarios. Explica la herramienta / uso de gazerecorder.com u otra similar. Aplíquese únicamente al caso B.
-
-
-![experimento](img/experimentoET.png)  
->>> Cambiar esta img por una de vuestro experimento. El recurso deberá estar subido a la carpeta P4/  
-
->>> gazerecorder en versión de pruebas puede estar limitada a 3 usuarios para generar mapa de calor (crédito > 0 para que funcione) 
-
+Se utilizará **GazeMapping** sobre capturas de pantalla de las páginas principales del Caso B (DIU2.AKA). Se definirán POIs en elementos clave: logo, CTA de reserva, navegación y cards de platos. Mínimo 3 usuarios. Resultados en [P4/](./P4/).
 
 ### 4.f Usability Report de B
-![Método UX](img/usability-report.png) 
------
 
->>> Añadir report de usabilidad para práctica B (la de los compañeros) aportando resultados y valoración de cada debilidad de usabilidad. 
->>> Enlazar aqui con el archivo subido a P4/ que indica qué equipo evalua a qué otro equipo.
+Pendiente de completar. El informe evaluará el Caso B (DIU2.AKA) siguiendo la plantilla oficial. Enlace al informe: [P4/](./P4/)
 
->>> Complementad el Case Study en su Paso 4 con una Valoración personal del equipo sobre esta tarea
+---
 
-
-
-<br>
-
-## Paso 5. Exportación y Documentación 
-
+## Paso 5. Exportación y Documentación
 
 ### 5.a Exportación a HTML/React
-![Método UX](img/usabilityReview.png) 
-----
 
->>> Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
+El diseño de Figma se exportó a React usando **Vite + Tailwind CSS + Lucide React**. Se implementaron los componentes principales del Design System respetando la paleta de colores y tipografía de la práctica 3: `Navbar`, `Button` (variantes primary/secondary/disabled), `DishCard`, `Hero` y `Footer`.
 
+🌐 Web publicada: [sabores-con-encanto.surge.sh](https://sabores-con-encanto.surge.sh)
+💻 Código fuente: [P4/](./P4/)
 
 ### 5.b Documentación con Storybook
-![Método UX](img/usabilityReview.png)
-----
 
->>> Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
+Se documentaron los 4 componentes principales con **Storybook**, incluyendo las variantes de cada uno. La documentación permite visualizar y probar cada componente de forma aislada con controles interactivos. Evidencias en [P4/](./P4/).
 
-
-<br>
+---
 
 ## Conclusiones finales & Valoración de las prácticas
 
-
->>> Opinión FINAL del proceso de desarrollo de diseño siguiendo metodología UX y valoración (positiva /negativa) de los resultados obtenidos. ¿Qué se puede mejorar? Recuerda que este tipo de texto se debe eliminar del template que se os proporciona 
-
-
-
-
+El proceso de diseño siguiendo metodología UX ha permitido construir un producto digital coherente y bien fundamentado, desde la investigación inicial hasta la implementación en React. Lo más valioso ha sido la conexión directa entre el Design System definido en Figma y los componentes React, que garantizó la consistencia visual en todo momento. El uso de Tailwind CSS facilitó enormemente la traducción de tokens de diseño a código. Como área de mejora, habría sido interesante involucrar usuarios reales en fases más tempranas del diseño para validar decisiones antes del prototipado Hi-Fi.
